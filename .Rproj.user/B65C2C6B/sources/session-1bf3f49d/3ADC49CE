@@ -3,7 +3,7 @@
     "path": "~/Desktop/Work/Job applications/District of Columbia Public Charter School Board/RFD_DC_Columbia/RFD_DC_Columbia.qmd",
     "project_path": "RFD_DC_Columbia.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1888278217",
     "contents": "",
     "dirty": false,
     "created": 1741359619498.0,
@@ -16,15 +16,17 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0",
-        "docOutlineSize": "172"
+        "rmdVisualModeLocation": "201:0",
+        "docOutlineSize": "172",
+        "cursorPosition": "8,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1741359616,
+    "lastKnownWriteTime": 1741359867,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1741359616,
+    "last_content_update": 1741359867961,
     "read_only": false,
     "read_only_alternatives": []
 }
