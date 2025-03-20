@@ -1,13 +1,143 @@
 ---
-title: "RFD_DC_Columbia"
+title: "Proposal for DC PCSB’s ASPIRE Reporting Project"
+output:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
+    highlight-style: solarized-light
+    css: styles.css
 ---
 
-## Quarto
+## 1. Introduction 
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+**[Our Organization/Team Name]** is pleased to submit this proposal in response to the DC Public Charter School Board’s (DC PCSB) request for proposals (RFP) for the development of public-facing web-based ASPIRE outcome reports. Our team has extensive experience in creating dynamic, responsive, and accessible data reporting platforms. We are confident in our ability to deliver high-quality HTML-based reports, leveraging Quarto, Python, and SQL, to meet and exceed DC PCSB’s needs.
 
-```{r}
+## 2. Understanding of the Project
 
-#Hey Yan 2
-1 + 1
-```
+We understand that DC PCSB requires two types of ASPIRE outcome reports for each public charter school campus in Washington, D.C.:
+
+- **Type 1 Reports**: Educate the public about the ASPIRE system and display ASPIRE Measure Rates by student subgroup.
+- **Type 2 Reports**: Include the content of Type 1 reports along with ASPIRE Measure Scores, Measure Floors, and Targets.
+
+Additionally:
+
+- Reports will be generated using Quarto scripts, Python, and SQL, and hosted within DC PCSB’s GitLab repository.
+- Reports should use progressive disclosure to organize information and must be mobile-friendly and ADA-compliant.
+- All data will be provided in publication-ready tables from DC PCSB’s AWS Data Warehouse.
+- The project involves creating dynamic views to handle variability across frameworks and schools, with attention to missing or suppressed data scenarios.
+
+Our team is well-equipped to meet these technical and functional requirements while adhering to DC PCSB’s standards for accessibility, maintainability, and user-centered design.
+
+## 3. Our Approach
+### 3.1 Project Management 
+
+Our team will assign an experienced **Product Manager** to oversee all aspects of this project. The Product Manager will:
+
+-	Serve as the primary point of contact for DC PCSB.
+-	Conduct sprint planning, manage feedback loops, and ensure timely delivery of all deliverables.
+-	Oversee quality assurance (QA) testing for data, functionality, and visual design.
+-	Facilitate regular presentations during the Data Team’s Sprint Review meetings.
+
+### 3.2 Development Process 
+We propose the following phased approach to deliver the reports:
+
+#### 1.	Phase 1: Planning and Design
+-	Collaborate with DC PCSB to finalize reporting templates for the 12 ASPIRE frameworks.
+- Create a cohesive design system using a Cascading Style Sheet (CSS) or branded YAML file for consistent aesthetics.
+-	Ensure compliance with ADA accessibility guidelines (e.g., color contrast, alternative text, dynamic links).
+
+#### 2.	Phase 2: Development
+-	Build Quarto scripts integrated with Python and SQL to generate HTML reports based on the provided data.
+-	Develop progressive disclosure features, such as collapsible sections and dynamic data-driven text, to organize information and reduce cognitive load for users.
+-	Implement mobile-responsive layouts to ensure reports are accessible across devices.
+
+#### Phase 3: Quality Assurance and Testing 
+- Conduct thorough testing for:
+    - **Data Integrity**: Ensure accurate representation of provided data, including handling missing or suppressed data scenarios.
+    - **Functional Testing**: Validate interactive features such as collapsible sections and dynamic charting.
+    - **Visual Testing**: Ensure the design meets DC PCSB’s branding and ADA accessibility standards.
+    - **Mobile Testing**: Verify usability on desktop and mobile devices.
+
+## 4. Phase 4: Delivery and Handover
+- Deliver Type 1 reports first, followed by Type 2 reports.
+- Provide comprehensive documentation, including a detailed README in the GitLab repository, to support DC PCSB’s Data Team in maintaining the product.
+- Conduct user training sessions as needed.
+
+## 5. Phase 5: Iteration and Feedback
+- Present work during DC PCSB’s Sprint Reviews for feedback.
+- Incorporate feedback into iterative updates to ensure the reports meet user expectations.
+
+## 4. Key Features
+- **Responsive Design**: Reports will adapt seamlessly to desktop and mobile devices.
+- **Progressive Disclosure**: Users can expand/collapse sections to view more granular data (e.g., bar charts, measure floors/targets).
+- **Dynamic Text and Charting**: Dynamic data integration into text strings and charts to provide user-specific insights.
+- **ADA Compliance**: Reports will meet all accessibility standards, including color contrast, alternative text, and consistent heading structures.
+- **Maintainability**: Code and documentation will be structured to enable DC PCSB’s Data Team to manage and update reports efficiently.
+
+## 5. Our Team
+
+### 5.1 Product Manager
+[Name] will serve as the Product Manager for this project. With extensive experience managing similar data reporting projects, [Name] will ensure that all deliverables meet DC PCSB’s requirements. Responsibilities include sprint planning, quality assurance, and acting as the primary client liaison.
+
+### 5.2 Development Team
+Our development team consists of skilled professionals with expertise in:
+- **Quarto, Python, and SQL**: For data processing and report generation.
+- **Front-End Design**: Ensuring mobile responsiveness and ADA compliance.
+- **GitLab**: Managing version control and collaborative development.
+
+### 5.3 Quality Assurance Specialists
+Our QA specialists will rigorously test all reports to ensure data accuracy, functional reliability, and visual consistency.
+
+## 6. Timeline
+We propose the following timeline for the project:
+
+| **Phase**                 | **Timeline**        |
+|---------------------------|---------------------|
+| Planning & Design         | Weeks 1-3          |
+| Development (Type 1)      | Weeks 4-8          |
+| Development (Type 2)      | Weeks 9-12         |
+| Quality Assurance         | Weeks 13-14        |
+| Final Delivery            | Week 15            |
+
+This timeline includes iterative feedback and testing during sprint reviews.
+
+## 7. Tools and Technologies
+- **Quarto, Python, and SQL**: For scripting and data integration.
+- **GitLab**: Repository management and documentation.
+- **CSS/YAML**: For branding and styling.
+- **Bootstrap (via Quarto)**: To ensure mobile responsiveness.
+- **Accessibility Tools**: To validate ADA compliance (e.g., color contrast checkers, screen readers).
+
+## 8. Budget
+Our proposed budget for this project is **29,400 USD**, covering all phases of development, quality assurance, and documentation. A detailed breakdown can be provided upon request.
+
+Provide a detailed breakdown 
+
+## 9. Why Choose Us?
+- **Proven Experience**: We have successfully delivered similar public-facing, data-driven reporting projects.
+- **Focus on Accessibility**: Our team prioritizes ADA compliance to ensure equitable access to all users.
+- **Iterative Development**: We value client feedback and incorporate it into our iterative processes.
+- **Commitment to Quality**: Our robust QA processes ensure a polished, reliable final product.
+- **Maintainability**: We deliver well-documented, maintainable solutions for long-term usability.
+
+## 10. Contact Information
+For any questions or further discussion, please contact:
+
+**[Our Name]**  
+**[Our Title]**  
+**[Our Organization]**  
+**[Email Address]**  
+**[Phone Number]**
+
+We look forward to the opportunity to work with DC PCSB and help create impactful, user-friendly ASPIRE reporting tools.
+
+Sincerely,  
+**[Our Name/Team]**  
+**[Our Organization]**
+
+
+
+
+
