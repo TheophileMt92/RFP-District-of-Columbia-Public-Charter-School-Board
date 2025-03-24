@@ -1,0 +1,103 @@
+---
+title: "Cost proposal for DC PCSB’s ASPIRE Reporting Project"
+author: "Théophile L. Mouton"
+date: "March 24, 2025"
+output:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
+    css: style.css
+    output-file: "Cost proposal for DC PCSB’s ASPIRE Reporting Project"
+    toc-title: "Contents"
+    toc-depth: 2
+    self-contained: true
+    code-fold: true
+    code-tools: true
+    highlight-style: solarized-light
+editor: visual
+execute:
+  warning: false
+  message: false
+  echo: true
+---
+
+# Cost Proposal
+
+## Fixed Price Contract for ASPIRE Report Generation System
+
+In accordance with the requirements specified in Solicitation PCSB-2025-01, we are pleased to present our fixed price proposal for the ASPIRE Report Generation System. Our pricing is based on our understanding of the project scope, technical requirements, and the iterative development approach outlined in the RFP.
+
+### Project Cost Summary
+
+| Component                           | Fixed Price     |
+|-------------------------------------|-----------------|
+| **ASPIRE Report Generation System** | **\$29,400.00** |
+
+This fixed price includes all services, deliverables, and project management required to successfully complete the project as outlined in Section C.5 of the RFP.
+
+### Detailed Cost Breakdown
+
+The following breakdown illustrates how our fixed price was determined based on the iterative approach specified in the RFP:
+
+| Iteration | Description | Hours | Rate | Cost |
+|---------------|---------------|---------------|---------------|---------------|
+| 1 | Very rough draft - Initial architecture and data model setup | 70 | \$60.00 | \$4,200.00 |
+| 2 | Very rough draft - Core visualization implementation | 70 | \$60.00 | \$4,200.00 |
+| 3 | Rough draft - Progressive disclosure implementation | 70 | \$60.00 | \$4,200.00 |
+| 4 | Rough draft - Mobile optimization and accessibility features | 70 | \$60.00 | \$4,200.00 |
+| 5 | Presentation ready draft - UI polish and performance optimization | 70 | \$60.00 | \$4,200.00 |
+| 6 | Incorporate feedback - First round of revisions | 70 | \$60.00 | \$4,200.00 |
+| 7 | Incorporate feedback - Final revisions and delivery | 70 | \$60.00 | \$4,200.00 |
+| **Total** |  | **490** |  | **\$29,400.00** |
+
+### Task-Based Cost Allocation
+
+Below is a breakdown of how hours are allocated across the specific task areas defined in the RFP:
+
+| Task Area                               | Percentage | Hours   | Cost            |
+|--------------------------------|--------------|--------------|--------------|
+| Data Integration & Warehouse Connection | 15%        | 73.5    | \$4,410.00      |
+| Core Report Development                 | 35%        | 171.5   | \$10,290.00     |
+| User Interface & Progressive Disclosure | 25%        | 122.5   | \$7,350.00      |
+| Mobile Optimization                     | 10%        | 49.0    | \$2,940.00      |
+| Accessibility Implementation            | 10%        | 49.0    | \$2,940.00      |
+| Testing & Quality Assurance             | 5%         | 24.5    | \$1,470.00      |
+| **Total**                               | **100%**   | **490** | **\$29,400.00** |
+
+### Role-Based Allocation
+
+Our team structure and role-based allocation of hours for this project:
+
+| Role                | Hourly Rate | Estimated Hours | Total           |
+|---------------------|-------------|-----------------|-----------------|
+| Project Manager     | \$60.00     | 65              | \$3,900.00      |
+| Data Architect      | \$60.00     | 90              | \$5,400.00      |
+| Front-End Developer | \$60.00     | 180             | \$10,800.00     |
+| UX/UI Designer      | \$60.00     | 95              | \$5,700.00      |
+| QA Specialist       | \$60.00     | 60              | \$3,600.00      |
+| **Total**           |             | **490**         | **\$29,400.00** |
+
+### Cost Notes and Assumptions
+
+1.  **Fully Loaded Rate**: Our \$60.00 hourly rate is fully loaded and includes all travel, overhead, and other expenses as required in section C.6.2.1.
+
+2.  **Fixed Price Contract**: This proposal is structured as a fixed price contract for the entire project, with payments tied to successful completion of each iteration.
+
+3.  **Payment Schedule**: We propose the following payment schedule based on successful delivery and acceptance of each major milestone:
+
+    -   Project Initiation: 10% (\$2,940.00)
+    -   Completion of Iteration 2: 15% (\$4,410.00)
+    -   Completion of Iteration 4: 25% (\$7,350.00)
+    -   Completion of Iteration 5: 25% (\$7,350.00)
+    -   Final Delivery (Iteration 7): 25% (\$7,350.00)
+
+4.  **Additional Services**: Any requested services beyond the scope defined in the RFP would be billed at our standard hourly rate of \$60.00, but only after written approval from DC PCSB.
+
+5.  **Assumptions**:
+
+    -   DC PCSB will provide timely feedback after each iteration
+    -   DC PCSB will provide data access and necessary technical documentation
+    -   The project timeline allows for the 7 iterations as specified in the RFP
+
+We believe this pricing structure represents an excellent value for DC PCSB, providing a full-featured, accessible, and mobile-friendly reporting system that meets all the requirements specified in the RFP.

@@ -57,7 +57,7 @@ Our team will assign an experienced **Product Manager** to oversee all aspects o
 
 We propose the following phased approach to deliver the reports:
 
-## 3.3 Technical Implementation of Reporting Structures
+### 3.3 Technical Implementation of Reporting Structures
 
 ### Understanding the Data Architecture
 
@@ -129,7 +129,7 @@ This implementation strategy ensures we deliver a reporting system that faithful
     -   **Visual Testing**: Ensure the design meets DC PCSB’s branding and ADA accessibility standards.
     -   **Mobile Testing**: Verify usability on desktop and mobile devices.
 
-## 3.4 Progressive Disclosure Implementation
+### 3.4 Progressive Disclosure Implementation
 
 Understanding that these reports contain substantial information that can be overwhelming to users, we will implement a progressive disclosure approach to ensure information is presented in digestible layers. This approach allows users to engage with increasing levels of detail based on their interest and needs.
 
@@ -168,7 +168,7 @@ This approach delivers several benefits:
 
 See Appendix 5 for a technical implementation example of our progressive disclosure approach.
 
-## 3.5 Ensuring ADA Accessibility Compliance
+### 3.5 Ensuring ADA Accessibility Compliance
 
 Our implementation approach prioritizes accessibility from the ground up to ensure all users can effectively engage with the reporting system, regardless of ability. We will meet or exceed WCAG 2.1 AA standards and adhere to all ADA accessibility requirements.
 
@@ -206,7 +206,7 @@ Our implementation approach prioritizes accessibility from the ground up to ensu
 
 See Appendix 6 for specific code examples demonstrating our technical implementation of these accessibility requirements.
 
-## 3.6 Implementation Approach for Core Requirements
+### 3.6 Implementation Approach for Core Requirements
 
 Beyond the functional specifications outlined earlier, we understand that several core implementation requirements are crucial to the success of this project. The following outlines our approach to meeting these essential requirements:
 

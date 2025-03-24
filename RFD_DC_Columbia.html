@@ -149,9 +149,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="development-process">3.2 Development Process</h3>
 <p>We propose the following phased approach to deliver the reports:</p>
 </section>
+<section id="technical-implementation-of-reporting-structures" class="level3">
+<h3 class="anchored" data-anchor-id="technical-implementation-of-reporting-structures">3.3 Technical Implementation of Reporting Structures</h3>
 </section>
-<section id="technical-implementation-of-reporting-structures" class="level2">
-<h2 class="anchored" data-anchor-id="technical-implementation-of-reporting-structures">3.3 Technical Implementation of Reporting Structures</h2>
 <section id="understanding-the-data-architecture" class="level3">
 <h3 class="anchored" data-anchor-id="understanding-the-data-architecture">Understanding the Data Architecture</h3>
 <p>Based on DC PCSB’s requirements, we recognize that the reporting structure follows a hierarchical organization:</p>
@@ -226,10 +226,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-</section>
-<section id="progressive-disclosure-implementation" class="level2">
-<h2 class="anchored" data-anchor-id="progressive-disclosure-implementation">3.4 Progressive Disclosure Implementation</h2>
+<section id="progressive-disclosure-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="progressive-disclosure-implementation">3.4 Progressive Disclosure Implementation</h3>
 <p>Understanding that these reports contain substantial information that can be overwhelming to users, we will implement a progressive disclosure approach to ensure information is presented in digestible layers. This approach allows users to engage with increasing levels of detail based on their interest and needs.</p>
+</section>
 <section id="our-progressive-disclosure-strategy" class="level3">
 <h3 class="anchored" data-anchor-id="our-progressive-disclosure-strategy">Our Progressive Disclosure Strategy</h3>
 <ol type="1">
@@ -271,10 +271,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>See Appendix 5 for a technical implementation example of our progressive disclosure approach.</p>
 </section>
-</section>
-<section id="ensuring-ada-accessibility-compliance" class="level2">
-<h2 class="anchored" data-anchor-id="ensuring-ada-accessibility-compliance">3.5 Ensuring ADA Accessibility Compliance</h2>
+<section id="ensuring-ada-accessibility-compliance" class="level3">
+<h3 class="anchored" data-anchor-id="ensuring-ada-accessibility-compliance">3.5 Ensuring ADA Accessibility Compliance</h3>
 <p>Our implementation approach prioritizes accessibility from the ground up to ensure all users can effectively engage with the reporting system, regardless of ability. We will meet or exceed WCAG 2.1 AA standards and adhere to all ADA accessibility requirements.</p>
+</section>
 <section id="text-alternatives-and-semantics" class="level3">
 <h3 class="anchored" data-anchor-id="text-alternatives-and-semantics">Text Alternatives and Semantics</h3>
 <ul>
@@ -320,10 +320,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>See Appendix 6 for specific code examples demonstrating our technical implementation of these accessibility requirements.</p>
 </section>
-</section>
-<section id="implementation-approach-for-core-requirements" class="level2">
-<h2 class="anchored" data-anchor-id="implementation-approach-for-core-requirements">3.6 Implementation Approach for Core Requirements</h2>
+<section id="implementation-approach-for-core-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="implementation-approach-for-core-requirements">3.6 Implementation Approach for Core Requirements</h3>
 <p>Beyond the functional specifications outlined earlier, we understand that several core implementation requirements are crucial to the success of this project. The following outlines our approach to meeting these essential requirements:</p>
+</section>
 <section id="mobile-first-design-philosophy" class="level3">
 <h3 class="anchored" data-anchor-id="mobile-first-design-philosophy">Mobile-First Design Philosophy</h3>
 <p>We will implement a true mobile-first design approach for all reports:</p>
@@ -520,7 +520,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="appendix-1-simulated-data-generation-and-visualization-for-aspire-frameworks" class="level2">
 <h2 class="anchored" data-anchor-id="appendix-1-simulated-data-generation-and-visualization-for-aspire-frameworks">Appendix 1 : Simulated Data Generation and Visualization for ASPIRE Frameworks</h2>
-<div id="10531383" class="cell" data-execution_count="1">
+<div id="ab2c0ac9" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -601,7 +601,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Category 1</td>
 <td>Measure 1</td>
 <td>All Students</td>
-<td>53.1</td>
+<td>58.3</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
@@ -609,7 +609,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Category 1</td>
 <td>Measure 1</td>
 <td>Subgroup 1</td>
-<td>97.6</td>
+<td>76.9</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
@@ -617,7 +617,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Category 1</td>
 <td>Measure 1</td>
 <td>Subgroup 2</td>
-<td>76.8</td>
+<td>61.1</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">3</td>
@@ -625,7 +625,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Category 1</td>
 <td>Measure 1</td>
 <td>Subgroup 3</td>
-<td>86.4</td>
+<td>84.6</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">4</td>
@@ -633,7 +633,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Category 1</td>
 <td>Measure 2</td>
 <td>All Students</td>
-<td>63.3</td>
+<td>75.6</td>
 </tr>
 </tbody>
 </table>
@@ -647,7 +647,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The following examples demonstrate our approach to handling DC PCSB’s data requirements, including retrieval from AWS Data Warehouse, working with suppressed data, and implementing dynamic text.</p>
 <section id="example-1-sql-integration-with-quarto-for-data-retrieval" class="level3">
 <h3 class="anchored" data-anchor-id="example-1-sql-integration-with-quarto-for-data-retrieval">Example 1: SQL Integration with Quarto for Data Retrieval</h3>
-<div id="e0db3d19" class="cell" data-execution_count="2">
+<div id="3a5718c8" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyodbc</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -737,7 +737,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="example-2-handling-suppressed-data-scenarios" class="level3">
 <h3 class="anchored" data-anchor-id="example-2-handling-suppressed-data-scenarios">Example 2: Handling Suppressed Data Scenarios</h3>
-<div id="4b0d3c10" class="cell" data-execution_count="3">
+<div id="7dabd426" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_suppressed_data(df: pd.DataFrame) <span class="op">-&gt;</span> pd.DataFrame:</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Processes a dataframe containing suppressed data codes.</span></span>
@@ -857,7 +857,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="example-3-dynamic-text-integration-with-data" class="level3">
 <h3 class="anchored" data-anchor-id="example-3-dynamic-text-integration-with-data">Example 3: Dynamic Text Integration with Data</h3>
-<div id="ee081dd0" class="cell" data-execution_count="4">
+<div id="a6bcd5a3" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_dynamic_text(school_data: Dict[<span class="bu">str</span>, pd.DataFrame], template_type: <span class="bu">str</span>) <span class="op">-&gt;</span> Dict[<span class="bu">str</span>, <span class="bu">str</span>]:</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Generates dynamic text strings that incorporate data values.</span></span>
@@ -924,7 +924,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="appendix-4-report-navigation-and-structure-implementation" class="level3">
 <h3 class="anchored" data-anchor-id="appendix-4-report-navigation-and-structure-implementation">Appendix 4: Report Navigation and Structure Implementation</h3>
-<div id="df9d73c6" class="cell" data-execution_count="5">
+<div id="4c33019e" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_school_framework_selector(school_id: Optional[<span class="bu">str</span>] <span class="op">=</span> <span class="va">None</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Generates an interactive selector for schools and their available frameworks.</span></span>
@@ -1123,7 +1123,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-196"><a href="#cb5-196" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb5-197"><a href="#cb5-197" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> nav_html</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="470bf5cb" class="cell" data-execution_count="6">
+<div id="e4575060" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Helper functions for different visualization types</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_bar_chart(data: pd.DataFrame, title: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Creates a bar chart visualization for subgroup data"""</span></span>
@@ -1741,19 +1741,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>All Students</td>
-<td>67.4%</td>
+<td>71.0%</td>
 </tr>
 <tr class="even">
 <td>Economically Disadvantaged</td>
-<td>87.2%</td>
+<td>59.9%</td>
 </tr>
-<tr class="odd pd-suppressed">
+<tr class="odd">
 <td>Students with Disabilities</td>
-<td><span class="suppressed">Suppressed</span></td>
+<td>71.0%</td>
 </tr>
 <tr class="even">
 <td>English Learners</td>
-<td>60.9%</td>
+<td>86.2%</td>
 </tr>
 </tbody>
 </table>
@@ -1820,11 +1820,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>All Students</td>
-<td>87.4%</td>
+<td>78.5%</td>
 </tr>
 <tr class="even">
 <td>Economically Disadvantaged</td>
-<td>85.2%</td>
+<td>65.3%</td>
 </tr>
 <tr class="odd pd-suppressed">
 <td>Students with Disabilities</td>
@@ -1909,11 +1909,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>All Students</td>
-<td>76.7%</td>
+<td>87.4%</td>
 </tr>
 <tr class="even">
 <td>Economically Disadvantaged</td>
-<td>51.3%</td>
+<td>63.3%</td>
 </tr>
 <tr class="odd pd-suppressed">
 <td>Students with Disabilities</td>
@@ -1921,7 +1921,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td>English Learners</td>
-<td>55.7%</td>
+<td>63.3%</td>
 </tr>
 </tbody>
 </table>
