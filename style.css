@@ -1,20 +1,26 @@
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-  }
-  h1, h2, h3 {
-    color: #2c3e50;
-  }
-  a {
-    color: #18bc9c;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  blockquote {
-    border-left: 4px solid #18bc9c;
-    padding-left: 15px;
-    color: #555;
-    font-style: italic;
-  }
+  background-color: lightyellow; /* Test if CSS is applied */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: palegreen; /* Sets the hyperlink text color to pale green */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+}
+
+a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+blockquote {
+  border-left: 4px solid #18bc9c;
+  padding-left: 15px;
+  color: #555;
+  font-style: italic;
+}
