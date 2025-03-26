@@ -1,7 +1,6 @@
 ---
 title: "Cost proposal for DC PCSB’s ASPIRE Reporting Project"
-author: "Théophile L. Mouton"
-date: "March 24, 2025"
+date: "March 26, 2025"
 output:
   html:
     theme: cosmo
@@ -49,7 +48,6 @@ blockquote {
   font-style: italic;
 }
 </style>
-# Cost Proposal
 
 ## Fixed Price Contract for ASPIRE Report Generation System
 
@@ -128,3 +126,7 @@ Our team structure and role-based allocation of hours for this project:
     -   The project timeline allows for the 7 iterations as specified in the RFP
 
 We believe this pricing structure represents an excellent value for DC PCSB, providing a full-featured, accessible, and mobile-friendly reporting system that meets all the requirements specified in the RFP.
+
+**Sincerely,**  
+**Yan Holtz & Dr. Théophile Mouton**  
+**Dataviz Universe**
